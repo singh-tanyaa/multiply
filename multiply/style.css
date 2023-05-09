@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;1,600&family=Lobster&display=swap');
+/*font-family: 'IBM Plex Mono', monospace;
+font-family: 'Lobster', cursive;*/
+body{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: 'IBM Plex Mono',  monospace;
+  /* background-image: mulbg.jpg;*/
+  /*background-image: url("C:\Users\Tanya\OneDrive\Desktop\multiply\mulbg.jpg");*/
+  background: url("./mulbg.jpg");
+  background-repeat:no-repeat;
+  height:800px;
+  background-size: cover;
+/*background-color: rgb(120, 61, 113);*/
+}
+.form{
+    background-color: rgb(202, 232, 183);
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0, .3);
+    border-radius: 15px;
+    margin:13px;
+    z-index: 9;
+}
+.input{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    font-size:25px;
+    text-align: center;
+    padding:10px;
+    border:solid 4px rgb(24, 104, 24);
+    border-radius:15px; 
+    color:rgb(7, 151, 62);
+}
+.btn{
+    position: ;
+    border: none;
+    padding:5px 9px;
+    border-radius:6px;
+    box-shadow: 0px 4px 4px rgb(0,0,0.3);
+    font-size: 15px;
+    background-color: rgb(91, 238, 86);
+    color:white;
+    width:100%;
+    display:block;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 20px 0;
+    cursor: pointer;
+}
+    
+
+.btn:hover{
+    filter:brightness(0.9);
+   /* background-color: rgb(21, 92, 10);*/
+    transition: 0.5s;}
+
+.btn:focus{
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px #0d1fe3;
+}
+
+.input::placeholder{
+    color:rgb(9, 183, 82);
+    font-family: 'IBM Plex Mono', monospace;
+}
+.score{
+    color:rgb(4, 71, 4);
+    text-align:right;
+}
+
+/*.bg-image{
+    background: url("./mulbg.jpg");
+    height:200vh;
+    width:200vh;
+    background-repeat:no-repeat;
+}*/
